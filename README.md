@@ -1,6 +1,6 @@
 # CV Template
 
-You can find the website [here](https://noelledons.github.io/cv-design/).
+You can find the website [here](https://noelledons.github.io/cv-template/).
 
 ## Summary
 CV design template with contact, experience, education and skills/hobbies section.
