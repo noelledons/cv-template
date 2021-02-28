@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Poppins', sans-serif
+}
+
+body {
+  background: #85C1E9
+}
+
+#typing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #85C1E9
+}
+
+.wrapper1 {
+  display: flex
+}
+
+.wrapper1 .static-txt {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400
+}
+
+.wrapper1 .dynamic-txts {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden
+}
+
+.dynamic-txts li {
+  list-style: none;
+  color: #212F3D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite
+}
+
+@keyframes slide {
+  100% {
+    top: -360px
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 80px
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #85C1E9;
+  border-left: 2px solid #212F3D;
+  animation: typing 3s steps(10) infinite
+}
+
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 30px)
+  }
+
+  100% {
+    left: 0
+  }
+}
+
+.resume {
+  width: 900px;
+  background: #fff;
+  margin: 25px auto;
+  display: flex
+}
+
+.left {
+  background: #292b2f;
+  width: 300px;
+  padding: 0 20px
+}
+
+.right {
+  width: calc(100% - 250px)
+}
+
+.left .img_holder {
+  text-align: center;
+  padding: 20px 0
+}
+
+.left .img_holder img {
+  width: 200px;
+  border-radius: 60%;
+  margin-top: 5px;
+  margin-bottom: 5px
+}
+
+.pb {
+  padding-bottom: 20px
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  color: #D4AF37;
+  position: relative;
+  text-align: right;
+  margin-bottom: 15px
+}
+
+.title:before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 50px;
+  height: 3px;
+  background: #bc986a
+}
+
+.left .icon {
+  font-size: 20px;
+  color: #D4AF37
+}
+
+.left .text {
+  color: #D4AF37;
+  text-transform: uppercase;
+  font-size: 13px
+}
+
+.contact .li_wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px
+}
+
+.contact .li_wrap .icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px
+}
+
+.contact .li_wrap .text {
+  width: calc(100% - 50px);
+  word-break: break-word;
+  color: #fff
+}
+
+.skills .ul, .hobbies .ul {
+  display: static;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.skills .li_wrap, .hobbies .li_wrap {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.box {
+  display: inline-block;
+  margin-right: 20px
+}
+
+.skills .li_wrap {
+  background: #fff
+}
+
+.skills .li_wrap .text, .hobbies .li_wrap .text {
+  margin-top: 5px
+}
+
+.hobbies .li_wrap {
+  border: 2px solid #fff
+}
+
+.hobbies .li_wrap .icon, .hobbies .li_wrap .text {
+  color: #fff
+}
+
+.hobbies .li_wrap:hover {
+  background: #fff
+}
+
+.hobbies .li_wrap:hover .icon, .hobbies .li_wrap:hover .text {
+  color: #D4AF37
+}
+
+.header {
+  background: #292b2f;
+  padding: 15px 30px;
+  color: #fff;
+  height: 240px
+}
+
+.header .my_name {
+  font-size: 54px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #D4AF37
+}
+
+.header .role {
+  font-weight: 300;
+  font-size: 20px
+}
+
+.header .about {
+  margin-top: 20px;
+  line-height: 26px;
+  font-size: 14px
+}
+
+.right_inner {
+  padding: 30px;
+  color: #292b2f
+}
+
+.right_inner .education {
+  margin-top: 30px
+}
+
+.right_inner .li_wrap {
+  display: flex;
+  margin-bottom: 15px
+}
+
+.right_inner .li_wrap .date {
+  width: 125px;
+  color: #D4AF37;
+  text-align: center
+}
+
+.right_inner .li_wrap .info {
+  width: calc(100% - 125px);
+  padding-left: 25px;
+  position: relative
+}
+
+.right_inner .li_wrap .info_title {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #D4AF37
+}
+
+.right_inner .li_wrap .info_com {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 3px
+}
+
+.right_inner .li_wrap .info_cont {
+  margin-top: 15px
+}
+
+.right_inner .li_wrap .info:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: #D4AF37;
+  border-radius: 50%
+}
+
+.right_inner .li_wrap .info:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 2px;
+  height: 90%;
+  background: #D4AF37
+}
