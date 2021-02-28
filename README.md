@@ -1,24 +1,21 @@
 # CV Template
 
-You can find the website [here](https://noelledons.github.io/cv-template/).
+This project can be viewed [here](https://noelledons.github.io/cv-template/).
 
 ## Summary
-CV design template with contact, experience, education and skills/hobbies section.
+The inspiration for this project came from wanting to be able to showcase my CV in a creative way. The CV was developed using HTML and advanced CSS concepts. 
+First half of the screen acts as a welcome screen, and you scroll down to see the CV Template. It includes various ections such as experience, education, hobbies and skills.
 
-## Languages
+## Languages & add ons:
 - HTML
 - CSS
-
-## Other Technologies
 - Font Awesome
 - Google Fonts
+- Favicon
 
 ## Available Scripts
 
 In the project directory, you can find the code for:
  - Index (HMTL)
  - Styling (CSS)
-
-
-Template inspired by Coding Market tutorial [video](https://www.youtube.com/watch?v=riPiyepFXF0&t=5s&ab_channel=CodingMarket).
-
+ - Image Folder
