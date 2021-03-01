@@ -13,6 +13,14 @@ First half of the screen acts as a welcome screen, and you can scroll down to se
 - Google Fonts
 - Favicon
 
+## Demo
+![video1](https://user-images.githubusercontent.com/73482293/109438545-737d4b80-7a22-11eb-944c-9481ae5586a5.gif)
+
+<br>
+
+![video2](https://user-images.githubusercontent.com/73482293/109438576-8859df00-7a22-11eb-86a6-c42bc2b5223a.gif)
+
+
 ## Available Scripts
 
 In the project directory, you can find the code for:
